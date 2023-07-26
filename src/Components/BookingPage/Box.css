@@ -1,0 +1,28 @@
+.box{
+    height: 600px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);    
+    border: 2px solid black;
+
+}
+
+.head{
+    border-bottom: 2px solid black;
+}
+
+.box-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.right-seats{
+     display: flex;
+     flex-direction: row;
+    
+}
+
+.r-1{
+    margin-right:10px ;
+}

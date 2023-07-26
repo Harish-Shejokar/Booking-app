@@ -1,0 +1,40 @@
+.card{
+    background-color: rgb(255,255,255);
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    /* max-width: 90%; */
+    border: 2px solid gold;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.25);
+}
+
+.cardView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardView button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 0 5px;
+    padding: 0 .5rem;
+}
+
+.cont-btn{
+    width: 106%;
+    background-color: rgb(99, 99, 203);
+    margin-bottom: 1rem;
+}
+
+.outer{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}

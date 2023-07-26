@@ -1,0 +1,77 @@
+.detail {
+  height: 460px;
+  width: 250px;
+  border: 2px solid black;
+  font-family: cursive;
+  /* display: none; */
+}
+h3{
+    margin-top: 0;
+    border-bottom: 2px solid black;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+  /* padding: -1rem;
+    margin: -.5rem; */
+}
+
+.seat {
+  /* display: inline-block; */
+  height: 55px;
+  width: 27px;
+  /* background-color: beige; */
+  border: 1px solid rgb(24, 12, 24);
+  margin: 10px 4px 8px 4px;
+  border-radius: 5px;
+  /* margin-left: 0; */
+}
+
+.description {
+  width: 150px;
+  text-align: center;
+  /* border: 1px solid red; */
+  /* flex-wrap: wrap; */
+}
+
+
+
+.Available {
+  border-top: 1px solid rgb(13, 235, 13);
+  border-left: 2px solid rgb(13, 235, 13);
+  border-bottom: 1px solid rgb(13, 235, 13);
+  border-right: 0.7px solid rgb(13, 235, 13);
+}
+.women {
+  border-top: 1px solid pink;
+  border-left: 2px solid pink;
+  border-bottom: 1px solid pink;
+  border-right: 0.7px solid pink;
+}
+.selected {
+  border-top: 1px solid black;
+  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-right: 0.7px solid black;
+  background-color: rgb(13, 235, 13);
+}
+.other {
+  border-top: 1px solid black;
+  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-right: 0.7px solid black;
+  background-color: gray;
+}
+.bookedByfemale {
+  border-top: 1px solid palevioletred;
+  border-left: 2px solid palevioletred;
+  border-bottom: 1px solid palevioletred;
+  border-right: 0.7px solid palevioletred;
+  background-color: rgb(196, 193, 193);
+}
+
+
